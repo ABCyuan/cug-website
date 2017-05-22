@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #d9d9d9;
+}
+.container{
+    background: whitesmoke;
+    border-left:1px solid grey;
+    border-right:1px solid grey;
+}
+/*顶部LOGO*/
+.log{
+    height: 129px;
+    background: url("../cug-images/cug-log.png") no-repeat 430px 0;
+}
+.log .col-md-12{
+    height: 129px;
+    background: url("../cug-images/cug-log2.png") no-repeat;
+}
+.log p{
+    margin-top:12px ;
+    padding: 3px;
+}
+.log a{
+    color: #c9bb26;
+    margin-left: 5px;
+}
+/*顶部导航*/
+.nav{
+    box-sizing: border-box;
+    background: #5ea7eb;
+}
+.nav a{
+    color: white;
+}
+.dropdown-menu > li > a{
+    font-size: 12px;
+    color: #606060;
+}
+.nav  a:visited{
+    background: #5ea7eb !important;
+}
+.nav .dropdown-menu a:visited{
+    background: rgba(95, 172, 216, 0.5) !important;
+}
+.nav .dropdown-menu{
+    min-width: 110px !important;
+    background: #a3bbf6;
+    margin-left:3px;
+    margin-top: 0;
+}
+.open{
+    background: #5f95ff;
+}
+/*侧部导航*/
+.content .col-md-3{
+    height: 550px;
+    padding: 20px;
+}
+.content .col-md-3 .nav{
+    background: #f2f4f6;
+    border: none;
+    outline: none;
+}
+.content .col-md-3 a:link{
+    border: none;
+    outline: none;
+    background: #5f95ff !important;
+}
+.content .col-md-9{
+    background: #ffffff url("../cug-images/branch.jpg")no-repeat 32px 17px;
+    padding: 60px 35px;
+}
+/*footer区域*/
+.footer{
+    line-height: 60px;
+    height: 60px;
+    background: #5facd8;
+    color: whitesmoke;
+    font-size: 12px;
+}

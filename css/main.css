@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #d9d9d9;
+}
+.panel{
+    border: none;
+}
+.list-group-item{
+    font-size: 12px;
+    margin-top: -5px;
+    padding: 6px 10px;
+    border: 1px dashed #d9d9d9;
+}
+.container{
+    background: whitesmoke;
+    border-left:1px solid grey;
+    border-right:1px solid grey;
+}
+/*顶部LOGO*/
+.log{
+    height: 129px;
+    background: url("../cug-images/cug-log.png") no-repeat 430px 0;
+}
+.log .col-md-12{
+    height: 129px;
+    background: url("../cug-images/cug-log2.png") no-repeat;
+}
+.log p{
+    margin-top:12px ;
+    padding: 3px;
+}
+.log a{
+    color: #c9bb26;
+    margin-left: 5px;
+}
+/*导航栏*/
+.nav{
+    box-sizing: border-box;
+    background: #5ea7eb;
+}
+.nav a{
+    color: white;
+}
+.dropdown-menu > li > a{
+    font-size: 12px;
+    color: #606060;
+}
+.nav  a:visited{
+    background: #5ea7eb !important;
+}
+.nav .dropdown-menu a:visited{
+    background: rgba(95, 172, 216, 0.5) !important;
+}
+.nav .dropdown-menu{
+    min-width: 110px !important;
+    background: #a3bbf6;
+    margin-left:3px;
+    margin-top: 0;
+}
+.open{
+    background: #5f95ff;
+}
+/*幻灯片*/
+.content,.bottom, .newslist, .hr{
+    background: #ffffff;
+}
+.panel-heading{
+    background: #ffffff !important;
+}
+.content .col-md-6{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+/*幻灯片右边新闻*/
+.content h4{
+    font-weight: bold;
+    color: #4372bf;
+}
+.content h4 a{
+    font-size: 10px;
+    color: #4372bf;
+}
+.content h4 a:hover{
+    color: #4372bf ;
+}
+.content .office .col-md-12{
+    margin-top: -20px;
+    margin-left: 12px;
+}
+.content .office .col-md-12 .btn{
+    color:#4372bf ;
+    font-size: 6px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.content .office .col-md-12 a{
+    color:#4372bf ;
+    font-size: 6px;
+    margin-left: 35px;
+}
+/*底部更多图像*/
+.bottom{
+    text-align: center;
+}
+.bottom map area{ outline: none; }
+.bottom .R{
+    margin-left: -98px;
+}
+hr{
+    padding: 5px;
+    margin: 5px;
+}
+/*footer区域*/
+.footer{
+    line-height: 60px;
+    height: 60px;
+    background: #5facd8;
+    color: whitesmoke;
+    font-size: 12px;
+}
